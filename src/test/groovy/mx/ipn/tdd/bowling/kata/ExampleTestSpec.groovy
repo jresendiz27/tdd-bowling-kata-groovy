@@ -17,6 +17,6 @@ class ExampleTestSpec extends Specification {
         given:
         ExampleTest example = new ExampleTest()
         expect:
-        example.shouldFail()
+        example.shouldFail() == false
     }
 }
